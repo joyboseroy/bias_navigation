@@ -18,4 +18,5 @@ c) calculate the scores for the candidate keywords
 d) get the top 3 scores to get the keywords
 
 Step 5: Calculate the bias score
+
 Step 6: Make the UI for Chrome
