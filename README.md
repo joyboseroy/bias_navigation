@@ -20,5 +20,5 @@ A Python tool to detect bias in trending news articles using a lexicon-based sco
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/bias-aware-navigation.git
+git clone https://github.com/joyboseroy/bias-aware-navigation.git
 cd bias-aware-navigation
