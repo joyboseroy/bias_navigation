@@ -1,22 +1,24 @@
-# bias_navigation 
-Bias Aware Navigation
+# Bias Aware Navigation
 
-Step 1: Get trending topics
+A Python tool to detect bias in trending news articles using a lexicon-based scoring system.
 
-Step 2: Get URLs
+## Features
 
-Step 3: Call Readability APIs on the URLs to get the clean text
+- Crawls trending topics from Google News
+- Searches for related articles (hardcoded for now)
+- Extracts full article text using Newspaper3k or Readability
+- Calculates a bias score based on presence of biased words and phrases
+- Prints keywords and a bias density score (per 100 words)
 
-Step 4: Extract keywords from given document using rake algorithm
+## Bias Detection Method
 
-a) Get the words from the document by parsing using space and punctuations as delimiters
+- Uses a handcrafted lexicon derived from Wikipedia's NPOV guidelines and common biased terms
+- Computes both absolute score and normalized bias density
+- Matches single words and multi-word biased phrases
 
-b) get the candidate keywords by removing stopwords etc
+## How to Run
 
-c) calculate the scores for the candidate keywords
-
-d) get the top 3 scores to get the keywords
-
-Step 5: Calculate the bias score
-
-Step 6: Make the UI for Chrome
+### 1. Clone the repo
+```bash
+git clone https://github.com/yourusername/bias-aware-navigation.git
+cd bias-aware-navigation
