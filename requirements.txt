@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+newspaper3k
+rake-nltk
+readability-lxml
+nltk
