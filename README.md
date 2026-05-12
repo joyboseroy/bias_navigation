@@ -1,11 +1,10 @@
-## Papers
+# Bias Aware Navigation
 
-This repo implements two related papers:
+Code for the papers:
 
 **Bias Discovery in News Articles Using Word Vectors**
 Patankar A., Bose J.
-IEEE International Conference on Machine Learning and Applications
-(ICMLA) 2017, pp. 785-788
+IEEE ICMLA 2017, pp. 785-788
 [DOI: 10.1109/ICMLA.2017.00-62](https://ieeexplore.ieee.org/document/8260730)
 
 **Bias Based Navigation for News Articles and Media**
@@ -36,6 +35,37 @@ more biased language.
 
 ---
 
+## Features
+
+- Crawls trending topics from Google News
+- Extracts full article text using Newspaper3k or Readability
+- Calculates bias score using Word2Vec similarity to NPOV lexicon
+- Computes both absolute score and normalised bias density per 100 words
+- Matches single words and multi-word biased phrases
+- Lexicon derived from Wikipedia NPOV guidelines
+
+---
+
+## Files
+
+| File | What it does |
+|---|---|
+| `bias_aware_navigation.py` | Main bias detection script |
+| `requirements.txt` | Dependencies |
+
+---
+
+## How to Run
+
+```bash
+git clone https://github.com/joyboseroy/bias_navigation.git
+cd bias_navigation
+pip install -r requirements.txt
+python bias_aware_navigation.py
+```
+
+---
+
 ## Citation
 
 ```bibtex
@@ -48,3 +78,13 @@ more biased language.
   year={2017}
 }
 ```
+
+---
+
+## Author
+
+**Dr. Joy Bose** — Senior Data Scientist and AI Architect, Ericsson Global
+
+[LinkedIn](https://linkedin.com/in/joyboseroy) ·
+[Google Scholar](https://scholar.google.com/citations?user=1E0YgA4AAAAJ) ·
+[Personal site](https://joyboseroy.github.io)
