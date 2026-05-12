@@ -82,10 +82,6 @@ python bias_aware_navigation.py
 
 - **Bias Based Navigation for News Articles and Media**
   Patankar A., Bose J. NLDB 2016.
-- **A web browser responsive to the user interest level**
-  Bose J. et al. IEEE INDICON 2015. (Best Paper Award)
-- **A Hands Free Browser Using EEG and Voice Inputs**
-  Bose J. et al. IJCNN 2015.
 
 ---
 
